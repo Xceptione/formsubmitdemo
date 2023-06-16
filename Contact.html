@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bilagseksperten</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Css/main.css" />
+        <link rel="stylesheet" href="Css/contact.css">
+    </head>
+    <body>
+        <nav>
+            <div class="complete-logo">
+                <img onclick="toggleText()" class="logo" src="Img/Logo icon2.png" alt="logo">
+                <h1 id="logoText" class="logo-text">Bilagseksperten</h1>
+    
+            </div>
+       
+    
+    
+    
+            <div class="nav">
+                <ul>
+                    <li><a href="Home.html">Hjem</a></li>
+                    <li><a href="https://bilagsscanningdk.readsoftonline.com/">Log in</a></li>
+                    <li><a href="Pricing.html">Priser</a></li>
+    
+                    <li class="about" onclick="toggleMenu()">
+    
+    
+                        <a herf="#"></a>Om os</a>
+    
+                        <img class="arrow" src="Img/arrow2.png">
+    
+                    </li>
+    
+                </ul>
+            </div>
+    
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="links">
+                        <ul>
+                            <li><a href="Clients.html">Samarbejdspartnere</a></li>
+                            
+                            <li><a href="#">Vores ydelser</a></li>
+                            <li><a href="Contact.html">Kontakt</a></li>
+                        </ul>
+        
+                    </div>
+        
+                </div>
+            </div>
+    
+        </nav>
+
+
+
+        <div class="section1">
+            <div class="s1-text"><h1>Kontakt Bilagseksperten</h1></div>
+        </div>
+
+        <div class="section2">
+            <div class="s2-text">
+                <h1 class="heading">Bilagseksperten</h1>
+                <p>Hærvejen 8</p>
+                <p>6230 Rødekro</p>
+                <p>Telefon: 88 70 70 49</p>
+                <p>E-mail: info@bilagseksperten.dk</p>
+                <hr />
+                <h1 class="heading">Telefontider</h1>
+                <p>Vi kontaktes bedst på følgende tidspunkter:</p>
+                <p>Mandag til fredag fra kl. 08.00 til 14.00.</p>
+                
+                <p> du ringer uden for vores åbningstider, er du er altid velkommen til at lægge en besked på telefonsvarereren,
+                     og vi vil vende tilbage dig hurtigst muligt.</p>
+                
+                <p>Du kan også sende en E-mail til os på: info@bilagseksperten.dk.</p>
+            </div>
+            <div class="e-mail">
+                <form action="https://formsubmit.co/filipstyczen2009@gmail.com" method="POST">
+                    <h1 class="heading">E-mail os</h1>
+                    <input type="text" id="name" placeholder="navn" required> 
+                    <input type="email" id="email" placeholder="e-mail" required> 
+                    <input type="text" id="phone" placeholder="tlf. (ikke påkrævet)"> 
+                    <textarea id="message" rows="4" placeholder="din e-mail her" required></textarea>
+                    <button>send</button>
+                </form>
+                
+
+
+
+            </div>
+        </div>
+
+
+
+        <footer>
+        
+            <div class="footer-text">
+                <b>Bilagseksperten</b>
+            <b>|</b> Haervejen 8, Rodekro 
+            <b>|</b> Tlf.: +45 71 74 74 76 
+            <b>|</b> info@bilagseksperten.dk
+            </div>
+            
+    
+        </footer>
+    
+     
+     
+     
+     
+     
+
+    
+     <script>
+
+           
+
+
+
+            let subMenu = document.getElementById("subMenu");
+    
+    
+            function toggleMenu(){
+                subMenu.classList.toggle("open-menu");
+            }
+    
+            let logoText = document.getElementById("logoText")
+    
+            function toggleText(){
+                logoText.classList.toggle("show-text")
+            }
+    
+        </script>
+
+</html>
